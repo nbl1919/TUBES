@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>.:.:SNAGGLETOOTH GUI:.:.</title>
+		<link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.css">
+		<link href="vendor/gauge-cockpit/style.css" rel="stylesheet" type="text/css" />
+	    <link rel="stylesheet" href="vendor/gauge-cockpit/style.css">
+		<!-- <link rel="stylesheet" href="vendor/vendor/Highcharts-6.0.7/code/css/highcharts.css"> -->
+	</head>
+	<body onload="update()">
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">BIG TASK</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="nav-item" data-toggle="tooltip" data-placement="button" title="Main">
+				          <a class="nav-link" href="index.html">
+				            <i class="fa fa-fw fa-area-chart"></i>
+				            <span class="nav-link-text">Main</span>
+				          </a>
+				        </li>
+						<li class="nav-item" data-toggle="tooltip" data-placement="button" title="Graphics">
+				          <a class="nav-link" href="graphics.html">
+				            <i class="fa fa-fw fa-area-chart"></i>
+				            <span class="nav-link-text">Table & Graphics</span>
+				          </a>
+				        </li>
+					</ul>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+		</nav>
+
+
+      <main role="main" class="inner cover">
+      	<center>
+        <h1 class="cover-heading">WELCOME TO NABILA'S GUI</h1>
+        <h3>Bismillah...</h3>
+        <br>
+        <img src="http://lab.see.telkomuniversity.ac.id/lab/img_galeri/163177aptrg1.jpg" height="350" width="400" />
+        </center>
+      </main>
+
+		<footer class="panel-footer" style="margin-top:120px">
+			<p class="text-center">	
+			By nbl1919
+			</p>
+		</footer>
+	</body>
+	<script src="vendor/jquery/jquery-3.3.1.min.js"></script>
+	<script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+	<script src="vendor/Highcharts-6.0.7/code/highcharts.js"></script>
+
+	<!-- GOogle Maps -->
+  	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+  	<!--ScriptSharp library-->
+	<script src="vendor/gauge-cockpit/mscorlib.js" type="text/javascript"></script>
+	<!--Perfectwidgets library-->
+	<script src="vendor/gauge-cockpit/PerfectWidgets.js" type="text/javascript"></script>
+	<script src="vendor/gauge-cockpit/widgets_data.js" type="text/javascript"></script>
+	<script src="vendor/gauge-cockpit/app.js" type="text/javascript"></script>
+
+	<!-- 	Gauge -->
+	<script src="vendor/gauge/gauge.min.js">	</script>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+	<script src="/socket.io/socket.io.js"></script> <!-- Import socket io -->
+	<script src="app/data.js"></script> <!-- import data js -->
+</html>

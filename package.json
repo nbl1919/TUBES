@@ -1,0 +1,24 @@
+{
+  "name": "latihan",
+  "version": "1.0.0",
+  "description": "tugas magang",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nbl1919"
+  },
+  "keywords": [
+    "snaggletooth"
+  ],
+  "author": "nabila",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "serialport": "^6.0.5",
+    "socket.io": "^2.0.4"
+  }
+}
